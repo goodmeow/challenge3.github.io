@@ -1,55 +1,28 @@
-/* navigation */
-#nav_main {
+/* Basic styling */
+* {
+    font-size: 12pt;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: auto;
-    background-color: black; opacity: 0.5;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/* Navigation */
+#nav_main {
+    position: fixed;
 }
 #nav_logo {
-    font-size: 2.2rem;
-    padding-right: 8vw;
-    padding-left: 4vw;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
-#nav_right {
-    padding-right: 4vw;
+.nav_left {
 }
-.nav-item {
-    padding-right: 1vw;
+.nav_right {
 }
-/* cover */
-.cover {
-    position: absolute;
-    display: inline-flexbox;
-    width: 100%;
-    height: auto;
-}
-.cover
-.cover_heading {
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 32%;/* set this value to move up and down heading position */
-    text-align: center;
-}
-.cover
-.cover_heading
-.cover_heading_txt {
-    letter-spacing: 1.15pt;
-    font-size: 5.6vw;
-}
-#cover_txt {
-    text-align: center;
-    padding-top: 2vw;
-    font: 200;
-    font-size: 2rem;
-}
-#cover_btn {
-    padding-top: 2rem;
-}
-#button_play {
-    font-weight: bolder;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-left-width: 0rem; padding-left: 10%;
-    border-right-width: 0rem; padding-right: 10%;
+#nav_item {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    font-family: sans-serif;
 }

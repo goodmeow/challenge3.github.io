@@ -17,24 +17,47 @@
 
     </head>
     <header id="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light topnav" id="">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark topnav">
             <div class="container">
-                <a class="" href="#" id="nav_logo">LOGO</a>
-                <div class="container nav_left" id="nav_item">
-                    <a class="nav-item" href="#">Home</a>
-                    <a class="nav-item" href="#">Work</a>
-                    <a class="nav-item" href="#">Contact</a>
-                    <a class="nav-item" href="#">About Me</a>
-                </div>
-                <div class="container nav_right" id="nav_item">
-                    <a class="nav-item" href="#">Sign-up</a>
-                    <a class="nav-item" href="#">Login</a>
-                </div>
+                <a class="navbar-brand" href="#" id="nav_logo">LOGO</a>
+                <button class="navbar-toggler" 
+                        type="button" 
+                        data-toggle="collapse" 
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase font" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase font" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase font" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase font" href="#">About Me</a>
+                        </li>
+                    </ul>
+                    <a class="nav-link text-uppercase font" href="#">Sign Up</a>
+                    <a class="nav-link text-uppercase font" href="#">Login</a>
             </div>
         </nav>
     </header>
-    <body>
-        <div class="container" id="main">
+    <body class="bg-light">
+        <div class="container">
+            <h1 class="font text-center">Play Traditional Game</h1>
+            <div class="">
+                <h6 class="font text-center">Experience new traditional gameplay</h6>
+                <div class="col text-center">
+                    <button type="button" class="btn btn-warning btn-lg text-uppercase">Play Now</button>
+                </div>
+            </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

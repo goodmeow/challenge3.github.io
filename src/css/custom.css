@@ -58,3 +58,187 @@ h1 h2 h3 h4 h5 h6 {
     color: white;
     margin-top: -50px;
 }
+
+/* Carousel */
+
+.second-jumbotron {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), to(black)), url(../assets/the-games-bg.jpg);
+    background-image: linear-gradient(to top, transparent 70%, black 100%), url(../assets/the-games-bg.jpg);
+    color: black !important;
+    height: 540px;
+    margin-top: -35px;
+}
+
+.second-h6 {
+    color: white !important;
+    font-size: 16pt;
+}
+
+.second-h1 {
+    color: white !important;
+    font-size: 32pt;
+}
+
+.cus-car {
+    margin-top: 50px !important;
+}
+
+/* Stepper */
+.third-jumbotron {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), to(black)), url(../assets/features.jpg);
+    background-image: linear-gradient(to top, transparent 70%, black 100%), url(../assets/features.jpg);
+    color: black !important;
+    height: 540px;
+    margin-top: -35px;
+}
+
+.mt-custom {
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.mt-custom ul {
+    color: white !important;
+}
+
+.steps {
+    content: "\2022";
+    margin: 0 auto;
+    padding: 1rem 0;
+    color: orange;
+    text-transform: uppercase;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.step {
+    display: flex;
+}
+
+.time::after {
+    content: " ";
+    right: 0;
+    top: 0;
+    position: inherit;
+    background-position-x: 10px;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: orange;
+    border-radius: 50%;
+    z-index: 4;
+    transform: translateX(50%);
+}
+
+.step-items-dates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-context {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 1rem 1rem;
+    position: relative;
+}
+
+.step-heading,
+.step-line {
+    line-height: 1.5rem;
+    margin-top: 5rem;
+}
+
+.step-title {
+    margin-bottom: 5px;
+}
+
+.step-heading {
+    font-size: 0.5rem;
+    margin-top: 30px;
+}
+
+.step-heading-li {
+    font-size: 0.8rem;
+}
+
+.span-heading {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.step-heading-child {
+    font-size: 0.8rem;
+}
+
+.step-line-child {
+    line-height: 1.5rem;
+}
+
+.step-context::before {
+    content: " ";
+    border-left: 2px solid white;
+    height: 100%;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+}
+
+.step-title {
+    font-size: 1rem;
+    margin-bottom: -10px;
+}
+
+.span-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.step-heading {
+    font-size: 0.8rem;
+}
+
+.step:last-child .step-context::before {
+    height: 0;
+}
+
+.step-items-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.step-items-text,
+.step-items-dates {
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+
+.step-items-text li {
+    padding: .5rem 0;
+}
+
+.main-btn-2 {
+    margin-top: 30px;
+}
+/* System Req Mobile */
+.fourth-jumbotron {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), to(black)), url(../assets/requirements.png);
+    background-image: linear-gradient(to top, transparent 70%, black 100%), url(../assets/requirements.png);
+    color: black !important;
+    height: 900px;
+    margin-top: -35px;
+}
+
+.fourth-pp {
+    margin-top: 100px;
+}
+
+.fourth-h1 {
+    color: white;
+}
+
+.fourth-table {
+    color: white;
+}

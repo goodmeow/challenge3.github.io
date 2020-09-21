@@ -1,0 +1,401 @@
+/* Desktop */
+@media (min-width: 992px) {
+
+    .font {
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
+    }
+
+    .nav-bg {
+        background-color: transparent;
+    }
+
+    .nav-link:hover {
+        border-bottom: 3px solid black;
+        margin-top: -3px;
+    }
+
+    /* Jumbotron */
+    .main-jumbotron {
+        margin-top: -75px;
+        height: 1000px;
+    }
+
+    .main-text {
+        margin-top: 250px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
+        font-size: 62pt;
+    }
+
+    .main-text-2 {
+        margin-top: 50px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
+        font-size: 32pt;
+    }
+
+    .main-btn {
+        width: 200px;
+        margin-top: 60px;
+    }
+
+    .main-p {
+        color: white;
+        margin-top: 200px;
+        font-size: 18pt;
+    }
+
+    /* END Jumbotron */
+    /* Carousel */
+    .second-jumbotron {
+        background-size: cover;
+        height: 840px;
+        margin-top: -35px;
+    }
+
+    .second-h6 {
+        color: white;
+        font-size: 18pt;
+    }
+
+    .second-h1 {
+        color: white;
+        font-size: 48pt;
+    }
+
+    .car-mar {
+        margin-top: 170px;
+    }
+
+    .car-img {
+        width: 700px !important;
+    }
+
+    /* Stepper */
+    .third-jumbotron {
+        background-size: cover;
+        height: 840px;
+        margin-top: -35px;
+    }
+
+    .mt-custom {
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+
+    .mt-custom ul {
+        color: white !important;
+    }
+
+    .step {
+        display: flex;
+    }
+
+    .time::after {
+        content: " ";
+        right: 0;
+        top: 0;
+        position: inherit;
+        background-position-x: 10px;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: orange;
+        border-radius: 50%;
+        z-index: 4;
+        transform: translateX(50%);
+    }
+
+    .step-items-dates {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .step-context {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem 1rem 1rem;
+        position: relative;
+    }
+
+    .step-heading {
+        font-size: 2rem;
+    }
+
+    .step-heading,
+    .step-line {
+        line-height: 1.5rem;
+        margin-top: 5rem;
+    }
+
+    .step-heading-child {
+        font-size: 1rem;
+    }
+
+    .step-heading-li {
+        font-size: 2rem;
+    }
+
+    .step-line-child {
+        line-height: 1.5rem;
+    }
+
+    .step-context::before {
+        content: " ";
+        border-left: 2px solid white;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .step-title {
+        font-size: 2rem;
+        margin-bottom: -10px;
+    }
+
+    .span-heading {
+        font-size: 6rem;
+        margin-bottom: 3rem;
+    }
+
+    .step:last-child .step-context::before {
+        height: 0;
+    }
+
+    .step-items-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .step-items-text,
+    .step-items-dates {
+        padding: 0.5rem 0 0.5rem 0.5rem;
+    }
+
+
+    .step-items-text li {
+        padding: .5rem 0;
+    }
+
+    .main-btn-2 {
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    .col-steps {
+        margin-top: 50px !important;
+    }
+
+    /* System Req */
+    .fourth-jumbotron {
+        background-size: cover;
+        height: 840px;
+        margin-top: -35px;
+    }
+
+    .fourth-rw {
+        margin-top: -45px !important;
+    }
+
+    .fourth-h1 {
+        color: white !important;
+    }
+
+    .fourth-table {
+        margin-top: 50px;
+        border-color: transparent !important;
+    }
+
+    .fourth-pp {
+        margin-top: 120px;
+    }
+
+    .fourth-table tr p {
+        color: white !important;
+    }
+
+    .fourth-h5 {
+        color: rgb(211, 140, 8) !important;
+    }
+
+    .cus-tops a {
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    /* Top Scorer */
+    .fifth-jumbotron {
+        background-size: cover;
+        height: 840px;
+        margin-top: -35px;
+    }
+
+    .text-scores-title {
+        font-size: 48pt;
+        letter-spacing: 1.15pt;
+        margin-top: 20px;
+    }
+
+    .text-scores-desc {
+        font-size: 12pt;
+        font-weight: 400;
+        word-spacing: 2pt;
+        letter-spacing: 1.15pt;
+    }
+
+    .card-custom {
+        background-color: #1A1B1C;
+        border-radius: 145px;
+    }
+
+    .card-img {
+        margin-left: 40%;
+        margin-top: 20%;
+        position: relative;
+        width: 50px !important;
+        height: 50px !important;
+        border-radius: 50%;
+        background-size: cover;
+        z-index: 10;
+    }
+
+    .card-img-wrapper::before {
+        content: " ";
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: #F9B447;
+        border-radius: 50%;
+        position: absolute;
+        left: 15px;
+        top: 12px;
+    }
+
+    .card-icon {
+        margin-top: 20px;
+    }
+
+    .ico-twitter {
+        margin-left: 30px;
+    }
+
+    .card-name {
+        color: orange !important;
+        font-weight: bold !important;
+        font-size: 14pt !important;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .card-name.card-title::after {
+        font-size: 10pt !important;
+        font-weight: 300;
+        word-spacing: 1.15pt;
+        margin-top: -10px;
+    }
+
+    .card-parent-caption {
+        margin-left: -26px;
+    }
+
+    .card-caption {
+        font-size: 10pt;
+        font-weight: 400;
+        margin-left: 50px;
+        margin-bottom: 0px;
+    }
+
+    .card-datetime {
+        font-size: 9pt;
+        font-weight: lighter;
+        margin-left: 50px;
+        color: grey;
+    }
+
+    .card-box {
+        width: 500px;
+        height: auto;
+        background-color: #1A1B1C;
+        border-radius: 8px 8px;
+    }
+
+    .ml-custom {
+        margin-left: 20%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .col-main {
+        margin-top: 70px;
+    }
+
+    .btn-score {
+        margin-top: 16px;
+        width: 100px !important;
+    }
+
+    .card-box {
+        width: 400px;
+    }
+
+    .cus-tops {
+        display: flex;
+        align-items: center;
+    }
+
+    .ml-cus-2 {
+        margin-left: 50px;
+    }
+
+    .fo-2 {
+        margin-top: 0px;
+    }
+
+    .rt {
+        margin-top: 10px;
+    }
+
+    /* Footer */
+    .sixth-jumbotron {
+        background-size: cover;
+        height: 300px;
+        margin-top: -35px;
+    }
+
+    .sixth-p {
+        color: white !important;
+        font-size: 16pt;
+    }
+
+    .p-six {
+        color: white !important;
+    }
+
+    .mar-p {
+        margin-right: 20px;
+    }
+
+    .foot-1 {
+        color: white !important;
+    }
+
+    .sv-img {
+        margin-right: 30px;
+    }
+
+    .sv-txt {
+        margin-right: 30px;
+    }
+
+    .form-row {
+        margin-top: 40px;
+    }
+
+    .text-left {
+        margin-top: 0px;
+    }
+
+}
